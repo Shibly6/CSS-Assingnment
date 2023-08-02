@@ -1,0 +1,189 @@
+ul {
+    font-size: 26px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ .nav-items li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .logo {
+    color: white;
+    background-color: #04AA6D;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+
+  .logo:hover {
+   background-color: #005838;  
+  }
+
+  .banner {
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  .content-box{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+  }
+
+  .wrapper{
+    padding: 5px;
+    max-width: 100%;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  header {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 21px;
+  }
+  .columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+  }
+
+  .c-title {
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: #fff;
+    border-radius: 10px;
+  } 
+  .column {
+    flex: 1;
+    margin: 2px;
+    padding: 50px;
+    transition:  0.3s;
+  }
+
+  .column:first-child{
+    max-width: 25%;
+    text-align: center;
+
+  }
+
+  .column:last-child{
+    max-width: 20%;
+  }
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #04AA6D;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+
+
+.price h2 {
+    font-size: 38px;
+    color: #04AA6D;
+}
+
+.deals{
+    margin-top: 5%;
+}
+
+.deals h4{
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid #00a267;
+    border-radius: 10px;
+    padding: 10px;
+    color: #00a267;
+
+}
+
+.column p{
+  font-size: 20px;
+}
+
+
+.offers-btn{
+    text-decoration: none;
+    background: #04AA6D;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.offers-btn:hover{
+    text-decoration: none;
+    background: #005838;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.s-list {
+  text-align: center;
+  text-transform: uppercase;
+  border: 3px solid #00a267;
+  border-radius: 10px;
+  padding: 10px;
+  color: #00a267;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #00a267;
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 10px;
+  font-size: 26px;
+}
