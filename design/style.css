@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-color: #E2EBD9;
+}
+
 ul {
     font-size: 26px;
     list-style-type: none;
