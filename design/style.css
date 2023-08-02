@@ -187,3 +187,18 @@ ul {
   padding-top: 10px;
   font-size: 26px;
 }
+
+.about-body {
+  margin: 50px;
+  width: 90%;
+}
+
+.about-text p{
+  font-size: 26px;
+}
+
+.about-text img{
+  float: left;
+  height: 400px;
+  margin: 26px;
+}
