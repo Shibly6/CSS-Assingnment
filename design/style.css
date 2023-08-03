@@ -2,12 +2,15 @@
 
 *{
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 body{
   background-color: #E2EBD9;
+
 }
 
+/* Homepage CSS */
 ul {
     font-size: 26px;
     list-style-type: none;
@@ -130,8 +133,6 @@ ul {
     text-align: center;
 }
 
-
-
 .price h2 {
     font-size: 38px;
     color: #04AA6D;
@@ -180,6 +181,7 @@ ul {
 }
 
 .footer {
+  position:relative
   width: 100%;
   height: 50px;
   background-color: #00a267;
@@ -191,6 +193,8 @@ ul {
   padding-top: 10px;
   font-size: 26px;
 }
+
+/* About page CSS */
 
 .about-body {
   margin: 50px;
@@ -229,3 +233,56 @@ ul {
 .a-title {
   text-align: center;
   }
+
+  /* Contact  page CSS */
+
+ .contact-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	max-width: 50%;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  margin-top: 6%;
+  margin-bottom: 6%;
+  margin-left: 25%;
+}
+
+.field{
+	width: 80%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 10px 20px;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.field:focus{
+  border: 2px solid rgba(30,85,250,0.47);
+  background-color: #fff;
+}
+
+.c-btn{
+  width: 70%;
+	padding: 20px 30px;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	transition: .3s;
+  margin-bottom: 30px;
+}
+
+.c-btn:hover{
+  background: #005838;
+}
